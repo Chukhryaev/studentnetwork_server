@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow"><link rel="canonical" href="https://bootstrap5.ru/examples/pricing">
+<meta name="docsearch:language" content="ru">
+<meta name="docsearch:version" content="5.0">
+<title>{% block title %}{% endblock %}</title>
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+<link rel="stylesheet" href="https://bootstrap5.ru/css/docs.css">
+<!-- Favicons -->
+
+<style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+</head>
+<body>
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-normal">Navbar</h5>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <a class="p-2 text-dark" href="#">Events</a>
+  </nav>
+  <a class="btn btn-outline-primary" href="#">Sign in</a>
+</div>
+{% block body %}
+{% endblock %}
+<footer class="container pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2" src="/img/brand/bootstrap-solid.svg" alt="логотип bootstrap" width="24" height="24">
+        <small class="d-block mb-3 text-muted">© 2017-2020</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Особенности</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Прикольная штука</a></li>
+          <li><a class="link-secondary" href="#">Случайная особенность</a></li>
+          <li><a class="link-secondary" href="#">Особенность команды</a></li>
+          <li><a class="link-secondary" href="#">Материал для разработчиков</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Ресурсы</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Ресурс</a></li>
+          <li><a class="link-secondary" href="#">Название ресурса</a></li>
+          <li><a class="link-secondary" href="#">Другой ресурс</a></li>
+          <li><a class="link-secondary" href="#">Заключительный ресурс</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>О нас</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Команда</a></li>
+          <li><a class="link-secondary" href="#">Местоположение</a></li>
+          <li><a class="link-secondary" href="#">Конфиденциальность</a></li>
+          <li><a class="link-secondary" href="#">Сроки</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
