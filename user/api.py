@@ -1,4 +1,4 @@
 def extend_application(app):
     @app.route('/my')
-    def events_handler():
+    def my_handler():
         return 'Hey! It is you!'
